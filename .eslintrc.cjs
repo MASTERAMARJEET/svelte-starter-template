@@ -22,6 +22,20 @@ module.exports = {
       processor: 'svelte3/svelte3',
     },
   ],
+  rules: {
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': 'warn',
+    '@typescript-eslint/no-non-null-assertion': 'off',
+    'max-len': [
+      'warn',
+      {
+        code: 80,
+        ignoreStrings: true,
+        ignoreTemplateLiterals: true,
+        ignoreComments: true,
+      },
+    ],
+  },
   settings: {
     'svelte3/typescript': require('typescript'),
     // ignore style tags in Svelte because of Tailwind CSS
