@@ -16,12 +16,6 @@ This starter uses following libraries:
 
 ## Quick Setup
 
-Run the following command with `<project-folder>` with name of destination folder
-
-```shell
-npx degit MASTERAMARJEET/svelte-starter-template#main <project-folder>
-```
-
 <details>
   <summary>For complete beginners</summary>
   
@@ -42,6 +36,12 @@ npx degit MASTERAMARJEET/svelte-starter-template#main <project-folder>
     any errors you are good to go.
 
 </details>
+
+Run the following command with `<project-folder>` with name of destination folder
+
+```shell
+npx degit MASTERAMARJEET/svelte-starter-template#main <project-folder>
+```
 
 ## Vite
 
