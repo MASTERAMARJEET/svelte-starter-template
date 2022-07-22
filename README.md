@@ -25,14 +25,11 @@ This starter uses following libraries:
   - Windows users can install [nvm-windows](https://github.com/coreybutler/nvm-windows#install-nvm-windows)
   - You can check is node is successfully installed by running `node -v` in terminal
 
-- **Install yarn**:
-  Run the command `npm install -g yarn` to install yarn
-
 - **Setup project**:
   From the root of the project, run the following command:
 
-  - `yarn install`: This should install all necessary packages into a `node_modules` folder.
-  - `yarn dev`: to see if you are able to run the svelte app. If you did not face
+  - `npm install`: This should install all necessary packages into a `node_modules` folder.
+  - `npm run dev`: to see if you are able to run the svelte app. If you did not face
     any errors you are good to go.
 
 </details>
