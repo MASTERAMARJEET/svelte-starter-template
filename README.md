@@ -23,7 +23,7 @@ This starter uses following libraries:
   - You can check is node is successfully installed by running `node -v` in terminal
 
 - **Copy the template**
-  Run the following command to copy the template
+  Run the following command where `<project-folder>` is the name of destination folder
   ```shell
   npx degit MASTERAMARJEET/svelte-starter-template#main <project-folder>
   ```
@@ -34,9 +34,6 @@ This starter uses following libraries:
   - `npm install`: This should install all necessary packages into a `node_modules` folder.
   - `npm run dev`: to see if you are able to run the svelte app. If you did not face
     any errors you are good to go.
-
-
-Run the following command with `<project-folder>` with name of destination folder
 
 
 ## Vite
